@@ -8,7 +8,7 @@ The goal of this kaggle competition is to extract sentiment summarization from t
 
 
 The metrics is [world level jaccard](http://en.wikipedia.org/wiki/Jaccard_index), The function of jaccard is as below:
-![image.png](attachment:image.png)
+![image.png](images/1.png)
 
 The overall metric is: 
 $$score=\sum_{i=1}^n jaccard(gt_i,dt_i)$$

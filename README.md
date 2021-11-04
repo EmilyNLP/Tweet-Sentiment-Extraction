@@ -96,7 +96,7 @@ set_seed(args)
 
 # 2. First stage model
 
-![image.png](attachment:image.png)
+![image.png](images/2.png)
 
 
 I tried bert_base, bert_large, Alber base, Albert large, RoBERTa large during building the WordPiece token level model. Ultimately, I choose RoBERTa_base as the transfomer for my first stage model. My choice was made based on two reasons. First, the jaccard value from outcome of the RoBERTa base transfomer is slightly better than other transfomers. Second, the computation speed is significently quicker than others. I think the Byte-Pair-Encoding of the RoBERTa helps get better results and remove the next sentence prediction objective in RoBERTa decreases the trainning time.
@@ -133,7 +133,7 @@ plt.tight_layout()
 
 
     
-![png](output_10_0.png)
+![png](images/output_10_0.png)
     
 
 
@@ -159,7 +159,7 @@ plt.tight_layout()
 
 
     
-![png](output_11_0.png)
+![png](images/output_11_0.png)
     
 
 

@@ -4,7 +4,7 @@
 
 The goal of this kaggle competition is to extract sentiment summarization from tweet texts which are denoted by sentiment type with neural,positive or negative. The data format is as following. The column "selected_text" is the target we should predict with the infomation of "text" and "setiment".
 
-![image.png](attachment:image.png)
+![image.png](images/1.png)
 
 
 The metrics is [world level jaccard](http://en.wikipedia.org/wiki/Jaccard_index), The function of jaccard is as below:
